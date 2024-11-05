@@ -12423,7 +12423,7 @@ body.phablet-nav-is-active .header .icon-menu:before {
     background: transparent;
     border-bottom: solid #e2e2e2 1px;
     border-radius: 0;
-    padding: 12px 0; }
+    padding: 24px 0; }
   .accordion .accordion-title {
     display: flex;
     column-gap: 16px;
