@@ -11742,7 +11742,8 @@ a {
                 .header__lasktop .menu > ul > li .submenu > ul > li > a:hover,
                 .header__lasktop .right-menu > ul > li .submenu > ul > li > a:hover {
                   background: #854A97;
-                  transition: ease 0.3s all; }
+                  transition: ease 0.3s all;
+                  color: #ffffff; }
                   .header__lasktop.header__lasktop--transparent .menu > ul > li .submenu > ul > li > a:hover, .header__lasktop.header__lasktop--transparent .right-menu > ul > li .submenu > ul > li > a:hover {
                     color: #ffffff;
                     background: #D99D02; }

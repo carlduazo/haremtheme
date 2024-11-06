@@ -169,6 +169,7 @@
                                     &:hover {
                                         background: color('primary');
                                         transition: transition();
+                                        color: color('white');
 
                                         @include state('header__lasktop--transparent', '.header__lasktop') {
                                             color: color('white');
