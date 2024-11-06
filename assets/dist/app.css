@@ -13187,8 +13187,9 @@ textarea.input-field {
     position: relative;
     z-index: 3; }
   .banner__image-title {
-    max-width: 200px;
-    max-height: 100px; }
+    max-width: 250px;
+    max-height: 100px;
+    margin-bottom: 12px; }
   .banner:before {
     position: absolute;
     width: 100%;
