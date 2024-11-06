@@ -33,6 +33,11 @@
   font-weight: 500;
   src: url(e1c825cfc0b50bc98721.otf) format("opentype"); }
 
+@font-face {
+  font-family: 'SweetSans';
+  font-weight: bolder;
+  src: url(5bdba6a9a8cd53e89772.otf) format("opentype"); }
+
 .color--white {
   color: white; }
 
