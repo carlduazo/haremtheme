@@ -12433,7 +12433,8 @@ body.phablet-nav-is-active .header .icon-menu:before {
       flex: 1;
       margin-bottom: 0; }
     .accordion-group.accordion-group--locations .accordion .accordion-title h3, .accordion-group.accordion-group--locations .accordion .accordion-title .h3 {
-      font-size: 18px;
+      font-size: 16px;
+      text-transform: uppercase;
       font-weight: 600;
       margin-bottom: 0;
       flex: 1; }

@@ -36,7 +36,8 @@
         h3 {
 
             @include state('accordion-group--locations', '.accordion-group') {
-                font-size: font-size('large');
+                font-size: font-size();
+                text-transform: uppercase;
                 font-weight: font-weight('semibold');
                 margin-bottom: 0;
                 flex: 1;
