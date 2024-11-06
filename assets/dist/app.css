@@ -11692,7 +11692,7 @@ a {
           .header__lasktop .right-menu > ul > li > a {
             display: flex;
             text-transform: uppercase;
-            font-weight: 400;
+            font-weight: 500;
             min-height: 85px;
             align-items: center;
             transition: ease 0.3s all;
@@ -11740,10 +11740,10 @@ a {
               .header__lasktop .menu > ul > li .submenu > ul > li > a,
               .header__lasktop .right-menu > ul > li .submenu > ul > li > a {
                 display: block;
+                font-weight: 500;
                 white-space: nowrap;
                 padding: 12px;
-                text-transform: uppercase;
-                font-weight: 400; }
+                text-transform: uppercase; }
                 .header__lasktop .menu > ul > li .submenu > ul > li > a:hover,
                 .header__lasktop .right-menu > ul > li .submenu > ul > li > a:hover {
                   background: #854A97;
