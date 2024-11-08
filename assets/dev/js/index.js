@@ -2,6 +2,7 @@ import './accordion';
 import './blog';
 import './brands';
 import './dimmer';
+import './isotope';
 import './lasktop-nav';
 import './phablet';
 import './services';
