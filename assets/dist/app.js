@@ -163,7 +163,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on('click', '.button--sh
   var videoLink = $this.data('video-link');
   var iframeEmbed = 'https://www.youtube.com/embed/' + videoLink + '?autoplay=1&controls=1&playlist=' + videoLink + '&rel=0&modestbranding=1&showinfo=0&autohide=1';
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.video--youtube').attr('src', iframeEmbed);
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.dimmer--media.js').dimmer('show');
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.dimmer--media.js').dimmer({
+    closable: false
+  }).dimmer('show');
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.videos__frame iframe').each(function () {
     var thisVideoCurrent = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).attr('data-video');
     var iframeEmbed_current = 'https://www.youtube.com/embed/' + thisVideoCurrent + '?autoplay=0&controls=1&playlist=' + thisVideoCurrent + '&rel=0&modestbranding=1&showinfo=0&autohide=1?enablejsapi=1';
