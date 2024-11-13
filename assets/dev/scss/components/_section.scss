@@ -510,7 +510,10 @@
     }
 
     &__quote {
-        text-align: center;
+        
+        @include media-breakpoint-down(md) { 
+            text-align: center;
+        }
 
         img {
             @include media-breakpoint-down(md) { 
