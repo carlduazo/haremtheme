@@ -11855,10 +11855,10 @@ body.phablet-nav-is-active .header .icon-menu:before {
     .header__phablet {
       display: flex; } }
   body.phablet-nav-is-active .header__phablet {
-    top: 108px;
+    top: 60px;
     transform: translateY(0); }
     body.header-is-stick.phablet-nav-is-active .header__phablet {
-      top: 70px; }
+      top: 60px; }
   .header__phablet .menu {
     flex: 1;
     overflow: auto; }
