@@ -53,7 +53,6 @@
                     flex-wrap: wrap;
 
                     a {
-                        font-family: $font-header;
                         font-size: font-size('large');
                         text-transform: uppercase;
                         padding: spacing('2x-small') spacing('x-small');
@@ -65,10 +64,14 @@
                     .menu-expand {
                         padding: spacing('2x-small') spacing('small');
 
+                        .icon {
+                            position: relative;
+                            top: 4px;
+                        }
+
                         &.expanded {
 
                             .icon {
-
                                 &:before {
                                     content: '\e913';
                                 }
