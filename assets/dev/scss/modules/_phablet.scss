@@ -7,6 +7,11 @@
             @include state('phablet-nav-is-active', 'body') {
                 content: "\e910";
                 -webkit-text-stroke: white 1px;
+                
+
+                @include state('header__lasktop--transparent', '.header__lasktop') {
+                    -webkit-text-stroke: rgba(80, 80, 80, 0.5) 2px;
+                }
             }
         }
     }
