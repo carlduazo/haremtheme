@@ -96,10 +96,11 @@
         display: flex;
         column-gap: spacing('2x-small');
         overflow: auto;
-        justify-content: space-around;
+        justify-content: center;
 
         @include media-breakpoint-down(md) { 
             margin-top: -24px;
+            justify-content: space-around;
         }
 
         label {

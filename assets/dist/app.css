@@ -13571,10 +13571,11 @@ textarea.input-field {
     display: flex;
     column-gap: 12px;
     overflow: auto;
-    justify-content: space-around; }
+    justify-content: center; }
     @media (max-width: 767.98px) {
       .blogs__filter {
-        margin-top: -24px; } }
+        margin-top: -24px;
+        justify-content: space-around; } }
     .blogs__filter label {
       padding-bottom: 16px; }
       .blogs__filter label input {
