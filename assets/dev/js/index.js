@@ -7,4 +7,5 @@ import './lasktop-nav';
 import './phablet';
 import './services';
 import './tab';
+import './sliders';
 import './testimonials';

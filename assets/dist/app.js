@@ -199,7 +199,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _phablet__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./phablet */ "./dev/js/phablet.js");
 /* harmony import */ var _services__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./services */ "./dev/js/services.js");
 /* harmony import */ var _tab__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./tab */ "./dev/js/tab.js");
-/* harmony import */ var _testimonials__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./testimonials */ "./dev/js/testimonials.js");
+/* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sliders */ "./dev/js/sliders.js");
+/* harmony import */ var _testimonials__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./testimonials */ "./dev/js/testimonials.js");
+
 
 
 
@@ -337,6 +339,38 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
         loop: false,
         nav: false,
         margin: 30
+      }
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./dev/js/sliders.js":
+/*!***************************!*\
+  !*** ./dev/js/sliders.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "jquery");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
+
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.gallery-images--partners').owlCarousel({
+    center: false,
+    items: 2,
+    loop: false,
+    margin: 20,
+    dots: true,
+    autoWidth: false,
+    autoplay: true,
+    responsive: {
+      768: {
+        items: 3,
+        margin: 40,
+        center: false
       }
     }
   });

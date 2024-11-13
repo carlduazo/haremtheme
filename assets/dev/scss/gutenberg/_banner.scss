@@ -42,6 +42,23 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+
+            @include state('section--banner-full-bg', '.section') {
+                object-position: bottom;
+                object-fit: contain;
+                width: auto;
+                max-width: 100%;
+                height: 100%;
+                margin: auto;
+            }
+
+        }
+
+        @include state('section--banner-full-bg', '.section') {
+            width: 100%;
+            left: 0;
+            right: auto;
+            text-align: center;
         }
     }
 }
@@ -62,6 +79,7 @@
     max-height: 400px;
     overflow: hidden;
     min-width: 1200px;
+    max-width: 1600px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
