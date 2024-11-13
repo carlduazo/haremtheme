@@ -13628,6 +13628,10 @@ textarea.input-field {
   display: flex;
   flex-direction: column;
   row-gap: 12px; }
+  @media (max-width: 767.98px) {
+    .heateor_sss_sharing_container .heateor_sss_sharing_ul {
+      flex-direction: row;
+      column-gap: 12px; } }
 
 body.blog {
   padding-top: 0; }

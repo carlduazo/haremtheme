@@ -184,6 +184,11 @@
         display: flex;
         flex-direction: column;
         row-gap: spacing('2x-small');
+
+        @include media-breakpoint-down(md) { 
+            flex-direction: row;
+            column-gap: 12px;
+        }
     }
 }
 
