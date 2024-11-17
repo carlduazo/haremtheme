@@ -13749,6 +13749,10 @@ body.blog {
   .blog .rich-text h6, .blog .rich-text .h6 {
     font-size: 14px; }
 
+.single-post .fancybox__content {
+  width: 100% !important;
+  height: 100% !important; }
+
 .featured-categories__item {
   border-radius: 10px;
   overflow: hidden;
