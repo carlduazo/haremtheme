@@ -189,6 +189,7 @@
         @include media-breakpoint-down(md) { 
             flex-direction: row;
             column-gap: 12px;
+            margin-bottom: spacing('x-small');
         }
     }
 }
@@ -355,3 +356,27 @@ body.blog {
         height: 100% !important;
     }
 }
+
+.btn-grad {
+    background-image: linear-gradient(to right, #E6B800 0%, #D4A017 51%, #E6B800 100%); /* Muted gold gradient */
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFFFFF; /* White text */
+    border-radius: 10px; /* Slightly rounded corners */
+    display: block;
+    font-weight: bold;
+    border: none; /* No border */
+    box-shadow: none; /* Remove shadow */
+ }
+ 
+ .btn-grad:hover {
+    background-position: right center; /* Reverses gradient direction on hover */
+    background: unset;
+    color: #FFFFFF; /* Keeps text consistent */
+    text-decoration: none;
+ }
+ 

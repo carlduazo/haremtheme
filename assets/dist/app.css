@@ -12548,7 +12548,6 @@ a.button {
   .button:hover,
   .btn:hover,
   a.button:hover {
-    background: #6c3a7b;
     color: #101020; }
   .button--square,
   .btn--square,
@@ -12622,7 +12621,6 @@ a.button {
     .button--secondary:hover,
     .btn--secondary:hover,
     a.button--secondary:hover {
-      background: #D19804;
       color: #ffffff; }
   .button--facebook,
   .btn--facebook,
@@ -12740,8 +12738,7 @@ a.button {
     color: #ffffff;
     font-size: 50px; }
   .play-button:hover {
-    transform: scale(1.2);
-    background: #D19804; }
+    transform: scale(1.2); }
 
 .company {
   display: flex;
@@ -13633,7 +13630,8 @@ textarea.input-field {
   @media (max-width: 767.98px) {
     .heateor_sss_sharing_container .heateor_sss_sharing_ul {
       flex-direction: row;
-      column-gap: 12px; } }
+      column-gap: 12px;
+      margin-bottom: 16px; } }
 
 body.blog {
   padding-top: 0; }
@@ -13752,6 +13750,34 @@ body.blog {
 .single-post .fancybox__content {
   width: 100% !important;
   height: 100% !important; }
+
+.btn-grad {
+  background-image: linear-gradient(to right, #E6B800 0%, #D4A017 51%, #E6B800 100%);
+  /* Muted gold gradient */
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #FFFFFF;
+  /* White text */
+  border-radius: 10px;
+  /* Slightly rounded corners */
+  display: block;
+  font-weight: bold;
+  border: none;
+  /* No border */
+  box-shadow: none;
+  /* Remove shadow */ }
+
+.btn-grad:hover {
+  background-position: right center;
+  /* Reverses gradient direction on hover */
+  background: unset;
+  color: #FFFFFF;
+  /* Keeps text consistent */
+  text-decoration: none; }
 
 .featured-categories__item {
   border-radius: 10px;
