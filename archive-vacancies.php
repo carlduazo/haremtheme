@@ -87,7 +87,7 @@ $company = get_field('company', 'options');
                             <?php if($company['email']) { ?>
                             <div class="company__info">
                                 <div class="title"><?= __('Email address', 'harem'); ?></div>
-                                <div class="value"><a href="mailto:<?= $company['email']; ?>"><?= $company['email']; ?></a></div>
+                                <div class="value"><a href="mailto:careers@hareminc.com">careers@hareminc.com</a></div>
                             </div>
                             <?php } ?>
                             <?php if($company['address']) { ?>
