@@ -11388,7 +11388,7 @@ textarea.form-control-lg {
 html,
 body {
   font-size: 16px;
-  font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+  font-family: "Lato", "Poppins", sans-serif;
   font-weight: 300;
   color: #101020;
   scroll-behavior: auto !important;
@@ -11401,7 +11401,7 @@ body {
       overflow: hidden; } }
 
 p {
-  font-family: "SweetSans", "Lato", "Poppins", sans-serif; }
+  font-family: "Lato", "Poppins", sans-serif; }
 
 a {
   text-decoration: none;
@@ -11538,7 +11538,7 @@ a {
     margin-top: 24px; }
   .footer__title {
     font-weight: 500;
-    font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+    font-family: "Lato", "Poppins", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -11628,7 +11628,7 @@ a {
 .header {
   z-index: 5;
   position: relative;
-  font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+  font-family: "Lato", "Poppins", sans-serif;
   font-weight: 500; }
   .header__lasktop {
     background: white;
@@ -12555,7 +12555,7 @@ a.button {
   background: #854A97;
   color: #101020;
   letter-spacing: 1px;
-  font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+  font-family: "Lato", "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -12785,7 +12785,7 @@ a.button {
 .input-field {
   padding: 16px 16px;
   font-size: 16px;
-  font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+  font-family: "Lato", "Poppins", sans-serif;
   border-radius: 4px;
   transition: ease 0.3s all;
   border: solid #e2e2e2 1px;
@@ -12997,7 +12997,7 @@ textarea.input-field {
   .section.related {
     border-top: solid #e2e2e2 1px; }
   .section__supertitle {
-    font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+    font-family: "Lato", "Poppins", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #854A97;
@@ -13591,7 +13591,7 @@ textarea.input-field {
     margin-top: 16px; }
     .blogs__item .meta__title {
       font-size: 18px;
-      font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+      font-family: "Lato", "Poppins", sans-serif;
       font-weight: 500;
       color: #101020;
       display: block;
@@ -13759,7 +13759,7 @@ body.blog {
       font-weight: 600;
       text-transform: uppercase;
       transition: ease 0.3s all;
-      font-family: "SweetSans", "Lato", "Poppins", sans-serif;
+      font-family: "Lato", "Poppins", sans-serif;
       font-size: 16px; }
   .blog__meta {
     display: flex;
