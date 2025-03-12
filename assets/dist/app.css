@@ -12485,7 +12485,8 @@ body.phablet-nav-is-active .header .icon-menu:before {
     .accordion .accordion-title h2, .accordion .accordion-title .h2 {
       font-size: 24px;
       flex: 1;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      font-weight: 600; }
       @media (max-width: 767.98px) {
         .accordion .accordion-title h2, .accordion .accordion-title .h2 {
           font-size: 18px;
@@ -12525,7 +12526,7 @@ body.phablet-nav-is-active .header .icon-menu:before {
     .accordion-group.accordion-group--locations .accordion .accordion-content {
       padding-top: 20px; }
     .accordion .accordion-content .rich-text {
-      line-height: 1.6; }
+      line-height: 1.8; }
       .accordion .accordion-content .rich-text strong {
         font-weight: 600; }
     .accordion .accordion-content .links {
@@ -12777,7 +12778,8 @@ a.button {
     flex-direction: column;
     row-gap: 8px; }
     .company__info .title {
-      font-weight: 500; }
+      font-weight: 500;
+      color: #D99D02; }
     .company__info .value p {
       margin-bottom: 0; }
 
@@ -13592,7 +13594,7 @@ textarea.input-field {
     .blogs__item .meta__title {
       font-size: 18px;
       font-family: "Lato", "Poppins", sans-serif;
-      font-weight: 500;
+      font-weight: 700;
       color: #101020;
       display: block;
       transition: ease 0.3s all;
