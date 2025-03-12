@@ -7,6 +7,8 @@
         .owl-stage {
             margin: auto;
             transform: translate3d(0px, 0px, 0px) !important;
+            display: flex;
+            column-gap: spacing();
 
             .owl-item {
                 cursor: pointer;

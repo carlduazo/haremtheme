@@ -9,8 +9,7 @@ a.button {
     letter-spacing: 1px;
     font-family: $font-body;
     font-size: font-size();
-    font-weight: font-weight('bold');
-    text-transform: uppercase;
+    font-weight: 400;
     border-radius: 4px;
     transition: transition();
     cursor: pointer;

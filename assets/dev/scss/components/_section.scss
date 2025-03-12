@@ -126,7 +126,6 @@
         font-size: font-size('large');
         color: color('primary');
         display: inline-flex;
-        letter-spacing: 1.5px;
         margin-bottom: spacing('2x-small');
         text-transform: uppercase;
         border-radius: 4px;
@@ -556,7 +555,7 @@
 
     &__text {
         font-size: font-size('large');
-        line-height: 1.6;
+        line-height: 1.8;
         margin-top: spacing('2x-small');
 
         @include media-breakpoint-down(md) {
